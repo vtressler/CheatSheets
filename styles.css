@@ -1,0 +1,59 @@
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  color: darkslategray;
+}
+body {
+  font-family: Ariel, sans-serif;
+  background-color: whitesmoke;
+  display: block;
+}
+h2 {
+  text-align: center;
+  font-weight: bold;
+  color: slategray;
+}
+table {
+border: 2px solid darkslategray;
+width: 650px;
+height: 250px;
+overflow: scroll;
+margin: 0 auto;
+border-collapse: separate;
+border-spacing: 2px;
+box-sizing: border-box;
+text-indent: initial;
+text-align: start;
+line-height: normal;
+font-weight: normal;
+font-size: medium;
+}
+thead {
+  background-color: lightgray;
+  vertical-align: middle;
+  display: table-header-group;
+  border-color: inherit;
+}
+tbody {
+display: table-row-group;
+verticle-align: middle;
+border-color: inherit;
+}
+td {
+  border-top: 1px solid darkslategray;
+  display: table-cell;
+}
+.code {
+  font-family: monospace;
+  background-color: lightgray;
+}
+.attribute { 
+  font-family: monspace;
+  background-color: lightgray;
+}
+footer{
+  text-align: center;
+  color: darkslategray;
+}
+
