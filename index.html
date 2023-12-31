@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href=./styles.css type="text/css" rel="stylesheet">
+    <title>HTML Cheat Sheet</title>
+  </head>
+  <body>
+    <h1>HTML Cheat Sheet</h1>
+    <h2>HTML Tags</h2>
+    <!--table-->
+    <table class="html table">
+      <thead>
+        <tr>
+          <th>Tags</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="code">&lt;html&gt;</span></td>
+          <td>html</td>
+          <td>used to give the page and browsers instructions</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;body&gt;</span></td>
+          <td>body</td>
+          <td>used to designate the main body of the page</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;title&gt;</span></td>
+          <td>title</td>
+          <td>
+            contains the title info of page; displayed in browser title bar
+          </td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;head&gt;</span></td>
+          <td>head</td>
+          <td>give info about the page that isn't displayed on the page</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;!doctype html&gt;</span></td>
+          <td>doctype</td>
+          <td>used to declare the document as html</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;!--comment&gt;</span></td>
+          <td>comments</td>
+          <td>used to write comments that aren't displayed by the browser</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;div&gt;</span></td>
+          <td>dividers</td>
+          <td>divides page into sections</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;emphasize&gt;</span></td>
+          <td>em</td>
+          <td>
+            emphasizes text and will usually italicize the text in brackets
+          </td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;br&gt;</span></td>
+          <td>break</td>
+          <td>
+            line break will create a break in text in a &lt;div&gt; element
+          </td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;/tagname&gt;</span></td>
+          <td>closing tag</td>
+          <td>used to show the end of an html element</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;elementname name=value&gt;</span></td>
+          <td>element name</td>
+          <td>
+            can be added to the opening tag to configure or change element
+            behavior
+          </td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;p&gt;</span></td>
+          <td>paragraph</td>
+          <td>contains and displays a block of text</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;h1-h6&gt;</span></td>
+          <td>headings 1-6</td>
+          <td>uses a level of 1 being highest 6 being lowest</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;h1 id="A1"&gt;</span></td>
+          <td>Unique ID Attributes</td>
+          <td>used to differentiate between elements</td>
+        </tr>
+        <tr>
+          <td>
+            <span class="attribute"
+              >&lt;img=src'path/to/image' alt="text description of
+              img"/&gt;</span
+            >
+          </td>
+          <td>alt</td>
+          <td>alt attribute gives text descriptions</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;span&gt;</span></td>
+          <td>span</td>
+          <td>
+            can be used to group for styling purposes, should be avoided for
+            more specific elements
+          </td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;strong&gt;</span></td>
+          <td>strong</td>
+          <td>
+            highlights important or serious text, will default to bold text
+          </td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;a&gt;</span></td>
+          <td>anchor</td>
+          <td>anchors hyperlinks to other pages or files</td>
+        </tr>
+        <tr>
+          <td><span class="attribute">target=</span></td>
+          <td>target attribute</td>
+          <td>will tell the browser where to open hyperlinks</td>
+        </tr>
+        <tr>
+          <td><span class="attribute">target="_blank"</span></td>
+          <td>target in new</td>
+          <td>will open a target in a new tab</td>
+        </tr>
+        <tr>
+          <td><span class="attribute"># id="section"</span></td>
+          <td>hyperlink within</td>
+          <td>used to hyperlink to different parts of html documents</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;table&gt;</span></td>
+          <td>table</td>
+          <td>creates a table</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;tr&gt;</span></td>
+          <td>table row</td>
+          <td>adds table rows</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;td&gt;</span></td>
+          <td>table data</td>
+          <td>add table data</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;thead&gt;</span></td>
+          <td>table head</td>
+          <td>defines the headings of the table</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;th&gt;</span></td>
+          <td>table heading</td>
+          <td>used to add headings to rows and columns of a table</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;tbody&gt;</span></td>
+          <td>table body</td>
+          <td>element that will contain all table data</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;tfoot&gt;</span></td>
+          <td>table footer</td>
+          <td>
+            uses table rows to give footer content or to sumarize content at the
+            end of a table
+          </td>
+        </tr>
+        <tr>
+          <td><span class="attribute">rowspan</span></td>
+          <td>row span</td>
+          <td>
+            indicates how many rows the cell takes up. It is set to 1 by default
+          </td>
+        </tr>
+        <tr>
+          <td><span class="attribute">colspan</span></td>
+          <td>column span</td>
+          <td>
+            indicates how many columns the cell takes up. It is set to 1 by
+            default..
+          </td>
+        </tr>
+        <tr>
+          <td><span class="attribute">src</span></td>
+          <td>source</td>
+          <td>
+            contains the url and is mandatory for &lt;img&gt; and &lt;video&gt;
+            elements
+          </td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;embed&gt;</span></td>
+          <td>embed</td>
+          <td>
+            can be used to embed any media, must have a src element and is
+            self-closing.
+          </td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;video&gt;</span></td>
+          <td>video</td>
+          <td>
+            embeds a media player for a video playback must have a src attribute
+            and closing tag
+          </td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;img&gt;</span></td>
+          <td>image</td>
+          <td>
+            embeds an image on the page, must have a src element but no closing
+            tag.
+          </td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;audio&gt;</span></td>
+          <td>audio</td>
+          <td>
+            used to put audio on the page,must have a src element and closing
+            tag.
+          </td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;figure&gt;</span></td>
+          <td>figure</td>
+          <td>is used to encapsulate media</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;figcapture&gt;</span></td>
+          <td>figure capture</td>
+          <td>is used to gice media a description</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;section&gt;</span></td>
+          <td>section</td>
+          <td>
+            used to define chapters or headings, can be used to give theme
+          </td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;article&gt;</span></td>
+          <td>article</td>
+          <td>
+            used to hold content that makes sense on its own, can be used to
+            give theme content
+          </td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;aside&gt;</span></td>
+          <td>aside</td>
+          <td>
+            marks additional data not needed to make sense of main contnet. ie
+            sidebar
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+  <footer>
+    <p>Website by Victoria Tressler at Renegade Designs LLC</p>
+  </footer>
+</html>
